@@ -48,9 +48,13 @@ h1 {
   font-family: "Arial", sans-serif; /* Set the font family */
 }
 
-.styled-text {
-  font-size: 24px; /* same as h2 */
-  font-weight: bold; /* same as h2 */
-  color: #333; /* same as h2 */
-  margin-bottom: 20px; /* same as h2 */
+/* Style for both the questions and answers */
+.question,
+.answer {
+  color: blue; /* Text color */
+  background-color: lightblue; /* Set the same background color */
+  font-family: Arial, sans-serif; /* Optional: Consistent font */
+  font-size: 16px; /* Adjust the font size if needed */
+  padding: 10px; /* Optional: Adds some padding around the text */
+  border-radius: 5px; /* Optional: Rounded corners */
 }
